@@ -5,8 +5,8 @@ These Terms of Service ("Terms") govern your use of the Quo Discord bot ("the Bo
 **Contact Information:**
 If you have any questions about these Terms, please contact:
 * Developer: ΛURΛ
-* Support Server: `https://dsc.gg/quohq`
-* Email : `auraesports.in@gmail.com`
+* Support Server: [SUPPORT](https://dsc.gg/quohq)
+* Email : [CONTACT](auraesports.in@gmail.com)
 
 ---
 
@@ -51,7 +51,7 @@ The Developer reserves the right to modify, suspend, or discontinue Quo (or any 
 
 ## 4. Privacy Policy
 
-Your use of Quo is also governed by our Privacy Policy, which details what information the Bot collects, how it's used, and your rights concerning that data. Please review the Privacy Policy at `[LINK TO YOUR PRIVACY.MD FILE ON GITHUB, e.g., https://github.com/YourUsername/YourBotRepoName/blob/main/PRIVACY.md]`.
+Your use of Quo is also governed by our Privacy Policy, which details what information the Bot collects, how it's used, and your rights concerning that data. Please review the Privacy Policy at [PRIVACY-POLICY](https://github.com/VoXAura/Quo-bot/blob/main/Privacy-Policy.md).
 
 ---
 
