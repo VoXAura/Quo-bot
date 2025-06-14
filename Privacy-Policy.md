@@ -6,7 +6,7 @@ This Privacy Policy explains how Quo ("the Bot") collects, uses, and protects yo
 If you have any questions about this Privacy Policy or your data, please contact:
 * Developer: ΛURΛ
 * Support Server: `https://dsc.gg/quohq`
-* Email (Optional): `[YOUR EMAIL ADDRESS]`
+* Email (Optional): `auraesports.in@gmail.com`
 
 ---
 
@@ -17,14 +17,13 @@ Quo collects the following types of information:
 * **Discord User IDs:** When you use commands, your Discord User ID is stored to link settings, preferences, or specific features to your account (e.g., custom prefixes, saved items). This is essential for the bot's functionality.
 * **Discord Guild (Server) IDs:** When the bot joins a server, its Guild ID is stored to save server-specific configurations like prefixes, enabled modules, or welcome message settings.
 * **Discord Channel IDs:** If you configure the bot to send messages to specific channels (e.g., logs, welcome messages), the respective Channel IDs are stored.
-* **Command Usage Data:** For debugging, analytics, and improving bot performance, we may temporarily log the commands used, the Discord User ID that issued the command, and the Guild ID where it was used. This data is typically anonymized or automatically purged after `[e.g., 7 days, 30 days, or state if not stored long-term]`.
-* **[SPECIFIC DATA COLLECTED BY YOUR BOT - BE VERY SPECIFIC. Examples below, delete if not applicable]:**
+* **Command Usage Data:** For debugging, analytics, and improving bot performance, we may temporarily log the commands used, the Discord User ID that issued the command, and the Guild ID where it was used. This data is typically anonymized or automatically purged after `30 days, or state if not stored long-term`.
+* **[SPECIFIC DATA COLLECTED BY QUO BOT]:**
     * `[e.g., User-provided custom messages or reminders]`
     * `[e.g., User-specific game data if your bot integrates with a game]`
     * `[e.g., Moderation logs (who was muted/kicked/banned by whom and why)]`
     * `[e.g., Role IDs or User IDs for specific permissions configurations]`
     * `[e.g., Any data stored for minigames or economy systems]`
-    * `[e.g., If your bot interacts with an external API and stores tokens or preferences related to that API, mention it here.]`
 
 **Quo DOES NOT collect sensitive personal information such as your Discord password, IP address (unless legally required for abuse investigations), or any directly identifying information beyond what Discord provides through its API (e.g., your username and discriminator are visible but not explicitly stored as core data points unless tied to a specific feature like leaderboards where you consent by participating).**
 
@@ -44,12 +43,11 @@ The information collected by Quo is used solely for the following purposes:
 
 ## 3. How Quo Stores and Protects Your Information
 
-* **Storage:** Your data is stored securely in a database located in `[e.g., a secure cloud environment like AWS/Google Cloud/Heroku, etc. You don't need to be hyper-specific, just mention it's a reputable/secure provider if applicable]`.
-* **Security:** We implement reasonable technical and organizational measures to protect your data from unauthorized access, alteration, disclosure, or destruction. This includes `[e.g., using secure database practices, restricting access to bot developers, etc.]`.
+* **Storage:** Your data is stored securely in a database located in `[RAILWAY.APP'S DATABASE AND ADDITIONALLY WE USE OUR CUSTOM SERVERS TO STORE THE DATABASE]`.
+* **Security:** We implement reasonable technical and organizational measures to protect your data from unauthorized access, alteration, disclosure, or destruction. This includes `[using secure database practices, restricting access to bot developers]`.
 * **Data Retention:**
     * Core configuration data (User IDs, Guild IDs, settings) is retained as long as the bot remains active in your server or until you request its deletion.
-    * Temporary data (e.g., command logs) is purged after `[e.g., 7 days, 30 days, or state "as soon as it's processed"]`.
-    * `[Any other specific retention periods for specific data types]`
+    * Temporary data (e.g., command logs) is purged after `[30 days]`.
 
 ---
 
