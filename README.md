@@ -3,20 +3,10 @@
 ![Db](https://img.shields.io/badge/db-PostgreSQL-blue)
 ![Library](https://img.shields.io/badge/orm-Tortoise%20ORM-purple)
 
-<div style="text-align: center;">
-  <img src="https://media.discordapp.net/attachments/1361939200764809338/1382424187112657132/Gemini_Generated_Image_xi8gczxi8gczxi8g-removebg-preview.png?ex=686b671a&is=686a159a&hm=95d0df7e7fda186d6ad7954001c3e6029695c163cfc3dc89f3b62b300b97bde9&=&format=webp&quality=lossless&width=333&height=333"
-       alt="Logo"
-       style="width: 100px; height: auto; margin-bottom: 20px;" />
-</div>
-
-<h1>Quo - The Ultimate Discord Bot for Esports Management</h1>
-<p>
-  Quo is the ultimate open-source Discord bot designed specifically for esports servers.
-  Our goal is to empower esports communities by simplifying and streamlining the organization and
-  management of scrims, tournaments, and other events.
-</p>
-<blockquote>The source here is only for educational purposes.</blockquote>
-
+<h1 align="center">
+ <br>
+  <a href="https://github.com/sonujana26"><img src="https://cdn.discordapp.com/attachments/1361939200764809338/1382424187112657132/Gemini_Generated_Image_xi8gczxi8gczxi8g-removebg-preview.png?ex=686c0fda&is=686abe5a&hm=2d4c1ec7db502ae2bfd5290c626e7faef5133649fb4a958af3837e791ffc5e70?size=1024.png?size=1024?size=128"></a>
+  <br>
 # Quo - The Ultimate Discord Bot for Esports Management
 
 Quo is the ultimate open-source Discord bot designed specifically for esports servers. Our goal is to empower esports communities by simplifying and streamlining the organization and management of scrims, tournaments, and other events.
