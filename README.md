@@ -5,7 +5,7 @@
 
 <h1 align="center">
  <br>
-  <a href="https://github.com/sonujana26"><img src="https://cdn.discordapp.com/attachments/1361939200764809338/1382424187112657132/Gemini_Generated_Image_xi8gczxi8gczxi8g-removebg-preview.png?ex=686c0fda&is=686abe5a&hm=2d4c1ec7db502ae2bfd5290c626e7faef5133649fb4a958af3837e791ffc5e70?size=1024.png?size=1024?size=128"></a>
+  <a href="https://github.com/VoXAura"><img src="https://cdn.discordapp.com/attachments/1361939200764809338/1382424187112657132/Gemini_Generated_Image_xi8gczxi8gczxi8g-removebg-preview.png?ex=686c0fda&is=686abe5a&hm=2d4c1ec7db502ae2bfd5290c626e7faef5133649fb4a958af3837e791ffc5e70?size=1024.png?size=1024?size=128"></a>
   <br>
 # Quo - The Ultimate Discord Bot for Esports Management
 
