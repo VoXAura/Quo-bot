@@ -143,7 +143,7 @@ Quo is modular! Each feature is a cog. Here are the main modules and their highl
   - Some advanced scrims functions may error due to Discord API or setup. If you encounter issues, [contact support](https://dsc.gg/quohq) for help.
 - **Tournament CSV Generation:**
   - To configure tournament CSV file generation, you must change the server/channel ID in `src/cogs/esports/views/tourney/main.py` at **line 300**.
-  - Make sure the channel ID you set exists in your server and the bot is present in that channel, or CSV export will fail.
+  - Make sure the channel ID you’ve set exists in your server and that the bot has access to it, or the CSV export will fail.
 
 ---
 
