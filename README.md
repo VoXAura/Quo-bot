@@ -3,7 +3,7 @@
 ![Db](https://img.shields.io/badge/db-PostgreSQL-blue)
 ![Library](https://img.shields.io/badge/orm-Tortoise%20ORM-purple)
 
-<img align="right" src="https://media.discordapp.net/attachments/1361939200764809338/1382424187112657132/Gemini_Generated_Image_xi8gczxi8gczxi8g-removebg-preview.png?ex=686b671a&is=686a159a&hm=95d0df7e7fda186d6ad7954001c3e6029695c163cfc3dc89f3b62b300b97bde9&=&format=webp&quality=lossless&width=333&height=333" alt="Logo" width="25%">
+<img src="https://media.discordapp.net/attachments/1361939200764809338/1382424187112657132/Gemini_Generated_Image_xi8gczxi8gczxi8g-removebg-preview.png?ex=686b671a&is=686a159a&hm=95d0df7e7fda186d6ad7954001c3e6029695c163cfc3dc89f3b62b300b97bde9&=&format=webp&quality=lossless&width=333&height=333" alt="Logo" style="float:right; width:120px; height:auto; margin-left:20px; margin-top:-10px;">
 
 # Quo - The Ultimate Discord Bot for Esports Management
 
@@ -143,7 +143,7 @@ Quo is modular! Each feature is a cog. Here are the main modules and their highl
   - Some advanced scrims functions may error due to Discord API or setup. If you encounter issues, [contact support](https://dsc.gg/quohq) for help.
 - **Tournament CSV Generation:**
   - To configure tournament CSV file generation, you must change the server/channel ID in `src/cogs/esports/views/tourney/main.py` at **line 300**.
-  - Make sure the channel ID you’ve set exists in your server and that the bot has access to it, or the CSV export will fail.
+  - Make sure the channel ID you set exists in your server and the bot is present in that channel, or CSV export will fail.
 
 ---
 
