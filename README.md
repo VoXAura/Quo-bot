@@ -1,14 +1,22 @@
-![Language](https://img.shields.io/badge/lang-Python%203.8-green)
-![discord.py Version](https://img.shields.io/badge/lib-discord.py%202.0-blue)
-![Db](https://img.shields.io/badge/db-PostgreSQL-blue)
-![Library](https://img.shields.io/badge/orm-Tortoise%20ORM-purple)
+![Language](https://img.shields.io/badge/Lang-Python%203.13.7-red)
+![discord.py Version](https://img.shields.io/badge/Lib-Discord.py%202.6.0-red)
+![Db](https://img.shields.io/badge/Db-PostgreSQL-red)
+![Library](https://img.shields.io/badge/ORM-Tortoise%20ORM-red)
 
-# Quo - The Ultimate Discord Bot for Esports Management
+<img align="right" src="https://cdn.discordapp.com/avatars/1380834150428442704/a83b721a79ce566b9f3c4addc978370d.webp?size=2048" alt="Logo" width="25%" style="border-radius: 50%;">
+
+## Quo - The Ultimate Discord Bot for Esports Management
 
 Quo is the ultimate open-source Discord bot designed specifically for esports servers. Our goal is to empower esports communities by simplifying and streamlining the organization and management of scrims, tournaments, and other events.
-> The source here is only for educational purposes.
+> The source here is completed and almost working codebase of original src.
 
 ---
+## Quo - History :
+Though Quo might look different in several aspects, the core codebase and every single part of it — every line of code and even the smallest changes — are all brought to us by a legend who is no longer with us. However, he passed down a legacy that we strive to protect until the end, no matter what. Our first iteration might be different from what we are now, but we have grown tremendously and learned so much along the way. [Rohit (Quotient's developer)](https://github.com/deadaf) may not be with us anymore, yet the code he left behind will continue to live on forever. We will do everything in our power to protect that legacy, continue contributing to this community, and forever keep Rohit's project alive in people's memory.
+
+# "How is it Connected to Quotient" :
+Quotient was the premier esports bot that seemed like something crafted through countless nights of effort and support from millions of users in the esports community. After hearing the unfortunate and shocking shutdown of the original ["Quotient-bot"](https://github.com/quotientbot/quotient), just like all those close to the developer, we were saddened and felt helpless at that moment. However, not long ago, we had the idea of trying to run Quotient on our own (since the bot was already open-sourced and essentially complete, except for a few fixes).
+[I (Quo's developer)](https://github.com/VoXAura) initially sought help from fellow developers to get this bot running independently, but none came forward to help, so I had to tackle it alone. It took time, but I was satisfied with the result, and thus Quotient's open-sourced code laid the foundation for the beginning of "Quo."
 
 ## 🚀 Installation & Setup
 
@@ -31,7 +39,7 @@ poetry install --no-dev
 ```
 
 #### **Running on External Hosting Sites (e.g., Railway, Replit, Heroku, etc.)**
-- If you face issues downloading requirements, install them in this order:
+- If you face issues spliting the main file & downloading requirements, install them in this order:
   1. `pip install -r basicrequire.txt`
   2. `pip install -r dbrequire.txt`
   3. `pip install -r minimalrequire.txt`
@@ -60,11 +68,15 @@ OCR_SPACE_API_KEY = "..."
 ### 4. **Database Setup**
 - The bot uses **PostgreSQL**. Make sure your database is running and accessible.
 - Tortoise ORM will auto-generate schemas on first run.
-- **Tip:** You can use [Railway](https://railway.app/) for easy PostgreSQL hosting.
+- **Tip:** You can use [Supabase](https://supabase.com/) for easy PostgreSQL hosting.
 
 ### 5. **Run the Bot**
 ```bash
-python src/bot.py
+python src/bot.py 
+```
+or 
+```bash
+python run.py 
 ```
 
 ### 6. **(Optional) Run with Docker**
@@ -89,6 +101,8 @@ Quo is modular! Each feature is a cog. Here are the main modules and their highl
 - `slotmanager` - Advanced slot management for scrims/tourneys.
 - `banlog` - Ban logging for scrims.
 - `ssverify` - Smart screenshot verification for results.
+- `ssidp` - Automatic IDP panel setup for ocr enabled screenshot IDP fetcher
+- `senddrop` - Used to send multiple drop panels in a scrims.
 
 ### **Events & Logging** (`cogs.events`)
 - Command logging, error handling, voting, scheduled tasks, and more.
@@ -103,9 +117,8 @@ Quo is modular! Each feature is a cog. Here are the main modules and their highl
 
 ### **Premium** (`cogs.premium`)
 - `pstatus` - Check premium status.
-- `premium` - View/purchase premium plans.
-- `pmanage` - Manage premium (status, info, transfer).
-- `pctl` or `premiumctl` - Premium control commands.
+- `premium` - View/claim premium.
+- `pmanage` - Manage premium (status, info, transfer, claim).
 
 ### **Miscellaneous** (`cogs.quomisc`)
 - `source` - Get source code link for commands.
@@ -114,7 +127,20 @@ Quo is modular! Each feature is a cog. Here are the main modules and their highl
 - `about`, `stats`, `contributors` - Bot info, stats, contributors.
 - `prefix`, `color`, `footer` - Customization commands.
 - `dashboard` - Dashboard link.
+- `report` - To report any bugs or issues.
+- `sticky` - To set custom sticky message(s).
 
+### **Dev-Only** (`cogs.quomisc.dev`)
+- `listservers` - To list servers in which bot is present.
+- `leaveserver` - To leave(s) servers in which bot is via argument such as "server_id" & "serial_order".
+- `blacklist` - add or remove users to blacklist.
+- `sync` - to sync slash cmds globally or guild wise.
+- `botupdate` - to push bot update globally.
+- `cmds` - Number of times you have used cmds of bot.
+- `history` - to view last 15 used cmd throughout the bot globally.
+- `pctl` or `premiumctl` - Premium control commands.
+- `rempremium` - Used to remove premium access from users & servers.
+  
 ### **Utility** (`cogs.utility`)
 - `reminder` - Set reminders for yourself.
 - `autorole` - Manage autoroles for humans/bots.
