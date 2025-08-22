@@ -3,7 +3,7 @@
 ![Db](https://img.shields.io/badge/Db-PostgreSQL-red)
 ![Library](https://img.shields.io/badge/ORM-Tortoise%20ORM-red)
 
-<img align="right" src="https://cdn.discordapp.com/avatars/1380834150428442704/a83b721a79ce566b9f3c4addc978370d.webp?size=2048" alt="Logo" width="25%" style="border-radius: 50%;">
+<img align="right" src="https://cdn.discordapp.com/avatars/1380834150428442704/a83b721a79ce566b9f3c4addc978370d.webp?size=2048" alt="Logo" width="200" height="200" style="border-radius: 50%; object-fit: cover;">
 
 ## Quo - The Ultimate Discord Bot for Esports Management
 
